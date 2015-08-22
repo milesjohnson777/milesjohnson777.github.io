@@ -1,0 +1,280 @@
+			/*********************************************************
+			*        some of the code found here                     *
+			*                                                        *
+			*            will be commented out.                      *
+			*                                                        *
+			*                some are remnants of testing            *
+			*                                                        *
+			*                    others, for explanation....         *
+			*                                                        *
+			*********************************************************/
+
+*{
+	font-family: sans-serif;
+}
+
+#header{
+	height:80px;
+	width:850px;
+	background-color:#4DFF4D;
+	/*border:1px solid #000000;*/
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* the following code is for my name in the header */
+
+#title_name{
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    margin-left: 85px;
+    /*border:1px solid #000000;*/
+}
+
+.whoami{
+    position: absolute;
+    display: block;
+}
+
+#name{
+    z-index: 2;
+}
+
+/* the following code is for shadow effect of #name */
+
+#shadow{
+    z-index: 1;
+    color:#00cc00;
+    margin:23px 0px 0px 5px;
+}
+
+/* the following code is for the outer shapes in the header gradient */
+
+.gradient{
+	position: relative;
+	display: inline-block;
+	height:80px;
+    width:80px;
+}
+#g1{
+    background-color: #00B200;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#g2{
+    background-color: #00CC00;
+    margin-left: -5px;
+}
+
+#g3{
+    background-color: #00E600;
+    margin-left: -5px;
+}
+
+#g4{
+    background-color: #00FF00;
+    margin-left: -5px;
+}
+
+#g5{
+    background-color: #19FF19;
+    margin-left: -5px;
+}
+
+#g6{
+    background-color: #33FF33;
+    margin-left: -5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* the following code is for the inner shapes in the header gradient*/
+
+.innerG{
+    border:1px solid #c0c0c0;
+    border-radius: 15px;
+	height: 40px;
+	width: 40px;
+	margin: 20px;
+}
+
+#innerG1{
+    background-color: #00CC00;
+} 
+
+#innerG2{
+    background-color: #00E600;
+} 
+
+#innerG3{
+    background-color: #00FF00;
+} 
+
+#innerG4{
+    background-color: #19FF19;
+} 
+
+#innerG5{
+    background-color: #33FF33;
+} 
+
+#innerG6{
+    background-color: #4DFF4D;
+} 
+
+/* the following code is for the center shapes in the header gradient */
+
+.centerG{
+    display: inline-block;
+	height: 10px;
+	width: 10px;
+    margin: 15px;
+    border:1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+#centerG1{
+    background-color: #4DFF4D;
+}
+
+#centerG2{
+    background-color: #33FF33;
+}
+
+#centerG3{
+    background-color: #19FF19;
+}
+
+#centerG4{
+    background-color: #00FF00;
+}
+
+#centerG5{
+    background-color: #00E600;
+}
+
+#centerG6{
+    background-color: #00CC00;
+}
+
+/* the following code is for the picture */
+
+#pic{
+    display: block;
+    float: right;
+    height: 170px;
+    width: 170px;
+    border-radius: 170px;
+    background-color: #00E600;
+    margin-top: -80px;
+}
+
+#self{
+    display: inline-block;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    margin:15px;
+}
+
+/* the following code is for the personal info section */
+
+#personal{
+    display: block;
+    position: absolute;
+    height: 140px;
+    width: 850px;
+    /*border:1px solid #000000;*/
+    border-radius: 20px;
+    margin:20px 0px 0px 80px;
+    background-color:#4DFF4D;
+}
+
+#h3-1{
+    position: absolute;
+    margin-left: 40px;
+}
+
+#personal_list{
+    position: absolute;
+    margin: 45px 0px 0px 40px;
+}
+
+/* the following code is for the education section */
+
+#EDU{
+    display: block;
+    position: absolute;
+    height: 140px;
+    width: 850px;
+    /*border:1px solid #000000;*/
+    border-radius: 20px;
+    margin: 180px 0px 0px 160px;
+    background-color:#4DFF4D;
+}
+
+#h3-2{
+    position: absolute;
+    margin-left: 40px;
+}
+
+#EDU_p{
+    position: absolute;
+    margin: 45px 30px 0px 40px;
+}
+
+/* the following code is for the work experience section */
+
+#workEXP{
+    display: block;
+    position: absolute;
+    height: 770px;
+    width: 850px;
+    /*border:1px solid #000000;*/
+    border-radius: 20px;
+    margin: 340px 0px 0px 240px;
+    background-color:#4DFF4D;
+}
+
+#h3-3{
+    position: absolute;
+    margin-left: 40px;
+}
+
+#WEXP_p{
+    position: absolute;
+    margin: 45px 30px 0px 40px;
+}
+
+table{
+    /*border: 3px solid #000000;*/
+}
+
+th{
+    font-weight: normal;
+}
+
+.net_img{
+    border: 3px solid #00FF00;
+    height: 100px;
+    width: 100px;
+}
+
+
+/* the following code is fort he footer */
+
+#footer{
+    display: block;
+    position: absolute;
+    margin-top: 1130px;
+    height: 60px;
+    width: 1250px;
+    border-radius: 20px;
+    /*border: 1px solid #000000;*/
+    background-color:#00CC00;
+    text-align: center;
+}
